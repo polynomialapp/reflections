@@ -10,3 +10,7 @@ Since it allows you to pick out individual files, you can make your commits disc
 
 How can you use the staging area to make sure you have one commit per logical change?
 Add only the file or files that relate to a given logical change. To verify, use git diff and git diff --staged to compare the working directory with the staging area and the staging area with the last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When adding new experimental features, attempting to add a new language version, generally mucking about with the code in ways that you don't necessarily want to include in the main version. Branches let you follow those alternative paths whie still preserving the main, proper version.
+You can even work on the main and experimental branches at the same time.
