@@ -2,3 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repo, a .git file is created in the container folder.
 That file tracks all the changes—the version history.
 You need to do it in order to use git—git doesn't track a repo unless you tell it to.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is just a holding tank for regulating what commits go into the repo at a given time.
+It doesn't contain the current, working code or any of the previous versions and has no use outside of making commits.
+Since it allows you to pick out individual files, you can make your commits discrete.
