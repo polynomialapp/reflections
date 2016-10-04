@@ -1,0 +1,25 @@
+On how diff was helpful
+Viewing a diff helped spot an error because I was able to see what had changed between two files (and only what had changed). I still had to figure out what the error was, but it was much easier because the number of possibilities was limited.
+The diff itself was also useful because it was a commandline tool, which felt cool to use and which could be quickly accessed.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You would be able to step back through the previous versions to recover working bits
+You would be able to recover from errors, even if there had been several versions in between
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: You define the versions and the breaks and the significance thereof
+Cons: You have to remember to commit; if you go too long without commiting, you risk losing work
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Saving multiple files allows you to track global changes, changes that happen across files & affect other files. Saving everything separately makes sense when the files are not interacting with each other.
+
+Git log shows list of commits, git diff com1 com2 shows the actual changes.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log displays a list of commits while git diff (with two commit IDs) shows the actual changes between those two commits.
+
+How might using version control make you more confident to make changes that could break something?
+Well, since you can revert any changes that introduce bugs, then, as long as you document your commits and keep them granular, you can basically try out anything while using version control.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try to use Git to develop a custom theme for TaskPaper.

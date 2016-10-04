@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repo, a .git file is created in the container folder.
+That file tracks all the changes—the version history.
+You need to do it in order to use git—git doesn't track a repo unless you tell it to.
