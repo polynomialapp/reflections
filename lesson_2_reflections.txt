@@ -14,3 +14,6 @@ Add only the file or files that relate to a given logical change. To verify, use
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When adding new experimental features, attempting to add a new language version, generally mucking about with the code in ways that you don't necessarily want to include in the main version. Branches let you follow those alternative paths whie still preserving the main, proper version.
 You can even work on the main and experimental branches at the same time.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams turn the metaphorical branches into actual branches, so the structure and relations are obvious.
